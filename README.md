@@ -1,18 +1,42 @@
-## Getting Started
+# Conversor de Medida de Peso
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto simples em Java que converte valores entre quilogramas (Kg) e libras (lbs) utilizando um menu interativo no terminal.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## ✅ Como funciona
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Ao executar o programa, o usuário verá um menu com três opções:
+1. Converter de Kg para Libras
+2. Converter de Libras para Kg
+3. Sair
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O programa permanece ativo até que o usuário selecione a opção de saída. As conversões utilizam a relação:  
+- **1 Kg ≈ 2.20462 lbs**  
+- **1 lb ≈ 0.453592 Kg**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🎯 Objetivo
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O objetivo deste projeto é praticar:
+- Estrutura de repetição (`while`)
+- Estrutura de decisão (`switch`)
+- Entrada e saída de dados com `Scanner`
+- Operações matemáticas e formatação de saída
+
+---
+
+## 🛠 Tecnologias utilizadas
+
+- **Java 17+**
+- Terminal/Console
+- IDEs recomendadas: IntelliJ IDEA, Eclipse, VS Code
+
+---
+
+## 🚀 Como executar
+
+1. Compile o projeto:
+   ```bash
+   javac App.java
