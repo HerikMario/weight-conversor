@@ -31,7 +31,6 @@ O objetivo deste projeto é praticar:
 
 - **Java 17+**
 - Terminal/Console
-- IDEs recomendadas: IntelliJ IDEA, Eclipse, VS Code
 
 ---
 
